@@ -1,0 +1,43 @@
+<!doctype html>
+<html class="landing" lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>هوست العرب</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="brand"><b>هوست العرب</b></div>
+
+    <div class="shell">
+      <img class="meme" src="meme.png" alt="" />
+
+      <main class="panel">
+        <p class="lede">ثغرة PS4 kernel &middot; إصدار 13.52 و 14.00</p>
+
+        <form class="pick" id="pick">
+          <label class="opt">
+            <input type="radio" name="payload" value="hen" />
+            <span class="opt-text">ps4-hen</span>
+          </label>
+          <label class="opt">
+            <input type="radio" name="payload" value="goldhen" checked />
+            <span class="opt-text">GoldHEN</span>
+          </label>
+
+          <label class="opt opt-auto">
+            <input type="checkbox" id="auto" checked />
+            <span class="opt-text">تشغيل تلقائي</span>
+          </label>
+
+          <button class="btn" type="submit">ابدأ الآن</button>
+          <p class="count" id="count"></p>
+          <p class="count" id="cache" aria-live="polite"></p>
+        </form>
+      </main>
+    </div>
+
+    <p class="byline">تطوير Hypiron</p>
+    <script src="launch.js"></script>
+  </body>
+</html>
